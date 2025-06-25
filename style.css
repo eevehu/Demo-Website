@@ -2,3 +2,26 @@
     font-family: sans-serif, "Times New Roman", serif;
     box-sizing: border-box;
 }
+
+.content {
+    height: 140px;
+
+    background-color: plum;
+    border: 4px solid indigo;
+
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.item {
+    height: 60px;
+    width: 60px;
+
+    border: 4px solid darkslategray;
+    background-color: skyblue;
+}
