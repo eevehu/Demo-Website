@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+  background: hsl(210deg, 30%, 12%);
+  color: hsl(0deg 0% 100%);
+}
+
 .content {
     height: 140px;
 
