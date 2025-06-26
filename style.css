@@ -48,16 +48,16 @@ body {
 }
 
 .content {
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
-    flex-direction: column;
-
+    
     background: rgb(28, 59, 65);
     margin: 8px 0px;
 }
 
 .sidebar {
-    width: 300px;
+    max-width: 200px;
+    min-height: 80vh;
     flex-grow: 1;
     order: -1;
     
@@ -68,6 +68,36 @@ body {
     display: flex;
     flex-direction: row;
 }
+.first, .second{
+    flex: 1;
+    margin: 8px;
+    display: flex;
+    border: 2px solid black;
+    background-color:darkseagreen;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+.second {
+    justify-content: center;
+}
+.blob {
+    height: 240px;
+    width: 240px;
+    margin-top: 36px;
+    align-self: center;
+}
+.first .blob {
+    border: 8px solid burlywood;
+    background-color: green;
+}
+.second .blob {
+
+    border: 8px solid burlywood;
+    background-color: aqua;
+}
+
+
 .footer {
     height:60px;
 
